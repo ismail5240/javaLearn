@@ -1,0 +1,16 @@
+package BenimDosyalar.j01_Variables.j10_StringManipulations.Task10.tasks;
+
+public class Task11 {
+    public static void main(String[] args) {
+      /* TASK :
+       Kullanıcıdan tek seferde alacağınız 2 kelimelik ad soyadı 2 ayrı kelimeye ayırınız,
+       ad ayrı soyad ayrı sekilde ekrana yazdırınız.
+       */
+
+
+
+
+
+
+    }
+}
