@@ -10,13 +10,31 @@ public class _01_if_statement {
 
         //Kodu aşağıya yazınız.
 
+
         int a = 35;
+        int b = 23;
+        if (a > b) {
+            System.out.println(" greater than ");
+        }
+        if (a < b) {
+            System.out.println(" smaller than");
+        }
+
+
+
+
+     /*
+       Ders de Yapulan çözüm
+
+       int a = 35;
         int b = 23;
         if (a > b) {
         System.out.println(" greater than");}
 
         if (a < b){
         System.out.println("smaller than");}
+
+       */
 
 
     }

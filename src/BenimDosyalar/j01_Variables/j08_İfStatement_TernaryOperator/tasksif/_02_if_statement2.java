@@ -10,7 +10,26 @@ public class _02_if_statement2 {
 
         //Kodu aşağıya yazınız.
 
+        int a = 26;
+        int b = 35;
+
+        if (a > b) {
+            System.out.println("greater than");
+        }
+        if (a < b) {
+            System.out.println("smaller than ");
+        }
+
+
+
+
+
+
+
+
+       /*
         int int1 = 26;
+
         int int2 = 35;
 
         if (int1 > int2) {
@@ -20,6 +39,8 @@ public class _02_if_statement2 {
             System.out.println("int 1 is smaller than 2");
         }
 
+
+        */
 
     }
 }

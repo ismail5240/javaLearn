@@ -17,6 +17,25 @@ public class _06_if_else_if_statement6 {
 
         //Kodu aşağıya yazınız. BU SATIRIN YUKARISINI DEĞİŞTİRMEYİNİZ.
 
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Bir sayı giriniz");
+        int number = sc.nextInt();
+
+        if (number == 0) {
+            System.out.println("Im neutral");
+        } else if (number > 0) {
+            System.out.println("I m positive");
+        } else System.out.println("I am negative");
+
+
+
+
+
+
+
+
+
+        /*
         Scanner scan = new Scanner(System.in);
         System.out.println("bir tam sayı giriniz:");
         int number = scan.nextInt();
@@ -27,5 +46,7 @@ public class _06_if_else_if_statement6 {
         } else System.out.println("I am negative");
 
 
+
+         */
     }
 }

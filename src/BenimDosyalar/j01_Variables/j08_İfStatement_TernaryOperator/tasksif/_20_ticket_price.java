@@ -44,7 +44,7 @@ sonuç 300 olmalıdır.  */
 
         Scanner scan = new Scanner(System.in);
 
-        int currentSpeed = scan.nextInt();
+        int hız = scan.nextInt();
 
         boolean isDriverLicenceAvailable = scan.nextBoolean();
 
@@ -52,8 +52,15 @@ sonuç 300 olmalıdır.  */
 
 
 
-
+        if (hız > 54 && hız <= 74) {
+            System.out.println("ceza=" + 100);
+        } else if (hız > 75 && hız <= 84) {
+            System.out.println("ceza=" + 150);
+        } else if (hız > 85 && hız <= 94) {
+            System.out.println("ceza=" +320);
+        } else if (hız > 94) {
+            System.out.println("ceza=" + 500);
+        }
     }
 }
-
 

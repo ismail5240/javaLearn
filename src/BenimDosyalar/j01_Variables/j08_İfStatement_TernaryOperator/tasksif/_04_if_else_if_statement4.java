@@ -21,6 +21,26 @@ public class _04_if_else_if_statement4 {
         }
 
  */
+
+        double a=3.14;
+        double b=5.14;
+
+        if ( a >  b){
+            System.out.println("greater than double");
+        }if ( a <b){
+            System.out.println("smaller than double");
+        }
+
+
+
+
+
+
+
+
+
+       /*
+
         Scanner input = new Scanner(System.in);
         System.out.println("double 1 sayı giriniz :");
         double double1 = input.nextDouble();
@@ -35,6 +55,8 @@ public class _04_if_else_if_statement4 {
         }
 
 
+
+        */
 
 
     }

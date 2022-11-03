@@ -1,5 +1,7 @@
 package BenimDosyalar.j01_Variables.J15_Arrays.ArrayÖdev;
 
+import java.util.Arrays;
+
 public class _20_Arrayboth_Ends {
 
     public static void main(String[] args) {
@@ -12,6 +14,9 @@ public class _20_Arrayboth_Ends {
 
     Sonuç bu şekilde olmalıdır. [1, 4]
       */
+        int arr[] = {1, 2, 3, 4};
+        int arr1[]={arr[0],arr[arr.length-1]};
+        System.out.println(Arrays.toString(arr1));
 
     }
 }
