@@ -1,31 +1,26 @@
 package BenimDosyalar.j01_Variables.J26_İnheritance.İnheretince_01.İnheritance02;
 
-public class Mammal {
+public class Mammal extends Hayvancık {
     public Mammal() {// p' siz cons
+        this('Y');
         System.out.println("Mammal P siz çalıştı");
 
     }
-    public void süt() {
 
-        System.out.println("HAYVANCIK süt içer...");
+    public Mammal(char c) {// p'li cons
+        super(17);
+        System.out.println("mamal p 'li cons...");
     }
 
-    public void hareket() {
-
-        System.out.println("HAYVANCIK hareket eder...");
-
+    public void mC() {
+        System.out.println("mC-->Mammal class meth call");
     }
 
-    public void dogum() {
+    int m = 1;
+    int c = 4;
 
-        System.out.println("HAYVANCIK dogum yapar...");
-    }
-    public void içme() {
-
-        System.out.println("HAYVANCIK içer...");
-    }
-    public void yeme() {
-
-        System.out.println("HAYVANCIK yer...");
+    @Override
+    public void mN() {//parentten ezen method
+        System.out.println("mC-->Mammal class meth call");
     }
 }

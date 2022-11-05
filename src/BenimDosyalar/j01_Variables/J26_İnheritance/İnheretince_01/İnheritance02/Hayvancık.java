@@ -2,26 +2,29 @@ package BenimDosyalar.j01_Variables.J26_İnheritance.İnheretince_01.İnheritanc
 
 public class Hayvancık {
 
-    public Hayvancık() {
+    public Hayvancık() {//p'siz cons
 
-        System.out.println( " HAYVANCIK P siz çalıştı");
+        System.out.println(" HAYVANCIK P siz çalıştı");
     }
-    public void hareket() {
 
-        System.out.println("HAYVANCIK hareket eder...");
-}
+    public Hayvancık(int i) {// p'li cons
 
-    public void yeme() {
+        System.out.println(" HAYVANCIK P li    çalıştı");
+    }
 
-        System.out.println("Hayvancık fena yer");
+    public void mA() {
+
+        System.out.println("mA --> hayvancık clas metod coll ...");
+    }
+
+    public void mN() {
+
+        System.out.println("mM --> hayvancık clas metod coll ");
 
     }
-    public void içme() {
 
-        System.out.println("HAYVANCIK fena içer");
-
-
-    }
+    int a;
+    int m = 3;
 
 }
 
