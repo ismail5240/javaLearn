@@ -21,6 +21,7 @@ public class Hayvancık {
         System.out.println("HAYVANCIK fena içer");
 
 
+
     }
 
 }
