@@ -11,6 +11,7 @@ public class C02_FileInputStreamException01 {
 
 
 FileInputStream fis =new FileInputStream("C:\\Users\\ASUS\\IdeaProjects\\javaLearn\\src\\BenimDosyalar\\j01_Variables\\j_29_Exception\\Not Defteri");
+//FileInputStream fis =new FileInputStream("C:\\Users\\ASUS\\IdeaProjects\\javaLearn\\src\\BenimDosyalar\\j01_Variables\\j_29_Exception\\Not Defteri");
   // ilgili dosyaya ulaşmak için  fis obj tanımlandı parametre olarak ulaşacak  dosya yolu girildi
 
         int k;
