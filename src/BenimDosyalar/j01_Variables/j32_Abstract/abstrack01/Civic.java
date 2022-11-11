@@ -16,16 +16,13 @@ public class Civic extends Lastik {
 
     @Override
     void kapı() {//impelement edilen abst method
-        System.out.println("5 kapı sedan");
+        System.out.println("5 kapı sedan");}
+public int vites(){return 5;}
 
-
-    }
-    public  int vites(){// concreate child
-        return 5;
-    }
 
     @Override
     public void lastikEbat() {
+        System.out.println("21 inc lastik");
 
     }
 

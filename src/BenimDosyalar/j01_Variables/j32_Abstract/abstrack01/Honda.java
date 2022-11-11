@@ -16,7 +16,9 @@ String name ="ismail team lead";
     // private void prvateMethode();//concerete method body'siz  olamaz
    // private abstract void prvateMethode();//abs method private olmaz
 
-   //  private void prvateMethode();//
-   // private abstract void prvateMethode();//
+   //  static void günesMethode();//concerete method body'siz  olamaz
+   // static abstract void staticMethode();//abs method private olmaz
+
+    // Honda obj=new Honda();// abs class obj uretemez
 
 }

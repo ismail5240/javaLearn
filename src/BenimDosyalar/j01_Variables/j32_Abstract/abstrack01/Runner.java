@@ -9,7 +9,7 @@ cvc.koltuk();
 cvc.kapı();
 cvc.motor();
 cvc.lastikEbat();
-cvc.vites();
+System.out.println("vites = " + cvc.vites());
 
     }
 }
