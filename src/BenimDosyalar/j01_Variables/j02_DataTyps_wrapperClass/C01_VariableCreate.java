@@ -19,6 +19,7 @@ public class C01_VariableCreate {
         System.out.println("boyunuz:"+boy);//175
 
 
+
          // 3. yol
          int yevmiye,age,kilo;//birden çok aynı tipte değişken tanımlandı
          age=33;
