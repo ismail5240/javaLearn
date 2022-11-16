@@ -3,6 +3,7 @@ package j34_Iteraites;
 import java.util.*;
 
 public class C01_Iteriaties {
+
     public static void main(String[] args) {
 
         List<String> l1 = new ArrayList<>(Arrays.asList("Nur", "Gamze", "Erol", "Bekir"));
