@@ -1,4 +1,4 @@
-package j34_Iteraites;
+package BenimDosyalar.j01_Variables.j34_Iteraites;
 
 import java.util.ArrayList;
 import java.util.Arrays;

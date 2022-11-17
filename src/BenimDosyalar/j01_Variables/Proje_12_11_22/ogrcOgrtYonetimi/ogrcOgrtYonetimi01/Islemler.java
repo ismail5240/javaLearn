@@ -20,7 +20,7 @@ public class Islemler {
         System.out.println(R+"**********************************    "+Y+" \nOGRENCI VE OGRETMEN YONETIM PANELI\n"+G+"**********************************");
         System.out.println(B+"1- OGRENCI ISLEMLERI\n2- OGRETMEN ISLEMLERI\nQ- CIKIS ");
         System.out.print("Lutfen yapmak istediginiz islemi giriniz : ");
-        System.out.print("isleminiz seciniz : ");
+       // System.out.print("isleminiz seciniz : ");
         String secim = scan.next().toUpperCase();
         switch (secim) {
             case "1":
@@ -210,4 +210,5 @@ public class Islemler {
             ogrtListesi.add(muhtesemOgretmen);
         }
     }
+
 }
