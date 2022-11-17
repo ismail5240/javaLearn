@@ -202,8 +202,9 @@ public class Islemler {
             ogrncListesi.add(sefilOgrenci);
         } else {//kisiTuru öğrenci ise if çalısir değilse kisiTuru öğretmen demektir ki else body çalışır
             System.out.print("sicil No giriniz : ");
-            String sicilNo = scan.nextLine();
+            String sicilNo = scan.next();
             scan.nextLine();//dummy
+
             System.out.print("bolum giriniz : ");
             String bolum = scan.nextLine();
             Ogretmen muhtesemOgretmen = new Ogretmen(adSoyad, kimlikNo, yas, sicilNo, bolum);//p'li cons ogrtm obj create edildi

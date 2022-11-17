@@ -38,6 +38,9 @@ public class Ogretmen extends Kisi {
                 "bolum='" + bolum + '\'' +
                 ", sicilNo='" + sicilNo + '\'' +
                 "} " + super.toString();
+
+
+
     }
 // @Override
    // public String toString() {
