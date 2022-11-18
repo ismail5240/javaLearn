@@ -64,6 +64,38 @@ public class C01_HashSet {
         hs1.add("adem");
         System.out.println("hs1 = " + hs1);
 
+        hs1.add(null);
+        hs1.add(null);
+        hs1.add(null);
+        System.out.println("hs1 = " + hs1);
 
+        HashSet<String>hs2=new HashSet<>(Arrays.asList("Bsarı","Gayrete","Asıktır"));
+        System.out.println("hs2 = " + hs2);
+        hs1.addAll(hs2);
+        System.out.println("hs1 = " + hs1);
+
+        System.out.println("hs1.remove(\"asıktır\")="+hs1.remove("asıktır"));
+        System.out.println("hs1.remove(\"Asıktır\")="+hs1.remove("Asıktır"));
+        System.out.println("hs1 = " + hs1);
+
+        System.out.println("hs1.removeAll(hs2) = " + hs1.removeAll(hs2));
+        System.out.println("hs1 = " + hs1);
+
+        System.out.println("hs1.size() = " + hs1.size());
+
+        System.out.println("hs1.isEmpty() = " + hs1.isEmpty());
+
+        hs1.clear();
+
+        System.out.println("hs1.isEmpty() = " + hs1.isEmpty());
+
+        System.out.println("hs1.size() = " + hs1.size());
+        System.out.println("hs1 = " + hs1);
+
+        System.out.println("hs2.contains(\"Basarı\") = " + hs2.contains("Basarı"));//true
+
+        System.out.println("hs2.contains(\"javaNAZZZ\") = " + hs2.contains("javaNAZZZ"));//false
+
+        System.out.println("hs2.hashCode() = " + hs2.hashCode());//-1614437285
     }
 }
