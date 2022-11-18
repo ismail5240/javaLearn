@@ -55,44 +55,46 @@ public class C01_HashSet {
         HashSet<String> hs1 = new HashSet<>(Arrays.asList("ercan", "yakup", "adem", "rukiye", "nur"));
 
         // Set print etme..
-        System.out.println("hs1 = " + hs1);
+        System.out.println("hs1 = " + hs1);//[adem, rukiye, ercan, yakup, nur]
 
         //set add()--> eleman ekleme
         hs1.add("kevser");
-        System.out.println("hs1 = " + hs1);
+        System.out.println("hs1 = " + hs1);//hs1 = [adem, rukiye, ercan, yakup, kevser, nur]
 
         hs1.add("adem");
-        System.out.println("hs1 = " + hs1);
+        System.out.println("hs1 = " + hs1);//hs1 = [adem, rukiye, ercan, yakup, kevser, nur]
 
         hs1.add(null);
         hs1.add(null);
         hs1.add(null);
-        System.out.println("hs1 = " + hs1);
+        System.out.println("hs1 = " + hs1);//hs1 = [null, adem, rukiye, ercan, yakup, kevser, nur]
 
         HashSet<String>hs2=new HashSet<>(Arrays.asList("Bsarı","Gayrete","Asıktır"));
-        System.out.println("hs2 = " + hs2);
+        System.out.println("hs2 = " + hs2);//hs2 = [Asıktır, Bsarı, Gayrete]
         hs1.addAll(hs2);
-        System.out.println("hs1 = " + hs1);
+        System.out.println("hs1 = " + hs1);//hs1 = [null, adem, rukiye, ercan, Asıktır, yakup, Bsarı, kevser, nur, Gayrete]
 
-        System.out.println("hs1.remove(\"asıktır\")="+hs1.remove("asıktır"));
-        System.out.println("hs1.remove(\"Asıktır\")="+hs1.remove("Asıktır"));
-        System.out.println("hs1 = " + hs1);
+        System.out.println("hs1.remove(\"asıktır\")="+hs1.remove("asıktır"));//false
+        System.out.println("hs1.remove(\"Asıktır\")="+hs1.remove("Asıktır"));//true
+        System.out.println("hs1 = " + hs1);//hs1 = [null, adem, rukiye, ercan, yakup, Bsarı, kevser, nur, Gayrete]
 
-        System.out.println("hs1.removeAll(hs2) = " + hs1.removeAll(hs2));
-        System.out.println("hs1 = " + hs1);
+        System.out.println("hs1.removeAll(hs2) = " + hs1.removeAll(hs2));//hs1.removeAll(hs2) = true
 
-        System.out.println("hs1.size() = " + hs1.size());
+        System.out.println("hs1 = " + hs1);//hs1 = [null, adem, rukiye, ercan, yakup, kevser, nur]
 
-        System.out.println("hs1.isEmpty() = " + hs1.isEmpty());
+        System.out.println("hs1.size() = " + hs1.size());//7
+
+        System.out.println("hs1.isEmpty() = " + hs1.isEmpty());//false
 
         hs1.clear();
 
-        System.out.println("hs1.isEmpty() = " + hs1.isEmpty());
+        System.out.println("hs1.isEmpty() = " + hs1.isEmpty());//true
 
-        System.out.println("hs1.size() = " + hs1.size());
-        System.out.println("hs1 = " + hs1);
 
-        System.out.println("hs2.contains(\"Basarı\") = " + hs2.contains("Basarı"));//true
+        System.out.println("hs1.size() = " + hs1.size());//0
+        System.out.println("hs1 = " + hs1);//hs1 = []
+
+        System.out.println("hs2.contains(\"Basarı\") = " + hs2.contains("Basarı"));//false
 
         System.out.println("hs2.contains(\"javaNAZZZ\") = " + hs2.contains("javaNAZZZ"));//false
 
