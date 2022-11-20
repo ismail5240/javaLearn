@@ -137,7 +137,8 @@ public class Islemler {
             System.out.println(ogrncListesi);
         }else {//ogretmen listeleniyor
             for (Kisi k: ogrtListesi) {
-                System.out.println(k.toString()+" adı soyadı : "+k.getAdSoyad()+k.getYas());
+               // System.out.println(k.toString()+" adı soyadı : "+k.getAdSoyad()+k.getYas());/--> çft yazdırıyor
+                System.out.println(k);//-->Biz yazdık
 
             }
         }

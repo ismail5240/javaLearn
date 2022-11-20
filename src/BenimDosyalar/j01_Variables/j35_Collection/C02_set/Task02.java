@@ -19,6 +19,8 @@ public class Task02 {
         ts.add("Hasmayan");
         ts.add("Koray");
 
+        System.out.println("ts = " + ts);//ts = [Haluk, Harun, Hasan, Hasmayan, Koray, Salim]
+
         long tsBitir= System.currentTimeMillis();// treeSet bitis zamanı alındı
 
         System.out.println("ts run suresi :"+(tsBitir-tsBasla));// treeSet rub suresi hesaplandı
