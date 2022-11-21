@@ -46,7 +46,7 @@ public class C01_Queue {
         System.out.println("q1 = " + q1);//[]
         System.out.println("q1.size() = " + q1.size());//0
         System.out.println("q1.poll() = " + q1.poll());//null
-        System.out.println("q1.remove() = " + q1.remove());//NoSuchElementException5
+      //  System.out.println("q1.remove() = " + q1.remove());//NoSuchElementException5
 
 
         //offer()-> queue coll. eleman eklemek için kullnılır.
