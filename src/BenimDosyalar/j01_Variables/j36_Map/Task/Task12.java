@@ -13,16 +13,19 @@ public class Task12 {
 
         HashMap<String, String> map = new HashMap<>();
 
-//        for (int i = 0; i < firstNames.length; i++) {
-//            map.put(firstNames[i], lastNames[i]);
-//        }
+      for (int i = 0; i < firstNames.length; i++) {
+          map.put(firstNames[i], lastNames[i]);
+      }
 
-        for (String st : firstNames){
+     /*   for (String st : firstNames){
 
             for (String str : lastNames){
                 map.put(st, str);
             }
+
         }
+
+      */
         System.out.println(map);
 
 
