@@ -106,7 +106,7 @@ public class Method implements GirisCikisInterface {
 
         int arananId=scan.nextInt();
 
-        if(Character.isDigit(arananId)){
+       // if(Character.isDigit(arananId)){
             if(urunler.keySet().contains(arananId)) {
 
                 System.out.println("Guncel miktarinizi giriniz");
@@ -116,7 +116,7 @@ public class Method implements GirisCikisInterface {
             }else{
                 System.out.println("aradiniz urun yok");
             }
-        }}
+        }
 
 
     private static void rafaKoy() {
