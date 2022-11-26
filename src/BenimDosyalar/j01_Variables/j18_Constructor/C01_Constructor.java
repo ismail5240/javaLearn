@@ -7,6 +7,7 @@ public class C01_Constructor {
 3- eger p'li cons. create edildiğinde java default cons ezer(siler)
 4- cons. return type olmaz method'dan ayıran özelliğidir.
 5-Class oluştugunsa java default cons. kendi create eder.
+
  */
     String str;  // inst variable-> obj variable
     String selam = "güzel insan";
