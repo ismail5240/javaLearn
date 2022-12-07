@@ -204,6 +204,7 @@ public class MusteriVeArabaBilgisiGirisi extends AracTalebi {
     public static void musteriBilgisi(){
         System.out.println("************************************");
         System.out.println("Lutfen adinizi ve soyadinizi giriniz: ");
+
         scan.nextLine();
         String adSoyad= scan.next();
         System.out.println("Lutfen id'nizi giriniz: ");
