@@ -1,9 +1,9 @@
 package BenimDosyalar.j01_Variables.j38_Debugger;
 
 public class C01_Debugger {
-    public static void main(String[] args) {
 
-  /*
+
+   /*
 Debug yapiyorsan, kodu anlamadin demektir.
 Debug yaparken kodu anlamiyorsan, nasil debug yapilir, onu anlamadin demektir.
 Debug yaparken kodu anladigini dusunuyorsan, aslinda debuga ihtiyacin olmadigini anladin demektir.
@@ -18,41 +18,49 @@ Amac sıfır debug aktivitesi ile uygulamayı istenilen seviyeye getirebilmek.
 */
 
 
-    }//main sonu
+        static int ebikGabık=7;//class level static global variable tanımlandı
+    public static void main(String[] args) {
+            method01();
+        }//main sonu
 
-    private static void method01() {
-        System.out.println("   ***   method01 çalışıyor   ***   ");
-        for (int i = 1; i <= 10; i++) {
-            System.out.print(i + " ");
+        private static void method01() {
+            System.out.println("   ***   method01 çalışıyor   ***   ");
+            int a=0;//local variable tanımlandı
+            ebikGabık++;
+            for (int i = 1; i <= 10; i++) {
+                System.out.print(i + " ");
+                a+=2*i;
+            }
+            System.out.println();
+            System.out.println("   ***   method02 call ediliyor   ***   ");
+            method02();
+            System.out.println("   ***   method03 call ediliyor   ***   ");
+            method03();
+
+            System.out.println("   ***   method01 bitti   ***   ");
         }
-        System.out.println();
-        System.out.println("   ***   method02 call ediliyor   ***   ");
-        method02();
-        System.out.println("   ***   method03 call ediliyor   ***   ");
-        method03();
 
-        System.out.println("   ***   method01 bitti   ***   ");
-    }
+        private static void method02() {
+            System.out.println("   ***   method02 çalışıyor   ***   ");
+            ebikGabık+=5;
+            for (int x = 1; x <= 7; x++) {
+                System.out.print(x + " ");
+            }
+            System.out.println();
 
-    private static void method02() {
-        System.out.println("   ***   method02 çalışıyor   ***   ");
-        for (int x = 1; x <= 7; x++) {
-            System.out.print(x + " ");
+            System.out.println("   ***   method02 bitti   ***   ");
         }
-        System.out.println();
 
-        System.out.println("   ***   method02 bitti   ***   ");
-    }
+        private static void method03() {
+            System.out.println("   ***   method03 çalışıyor   ***   ");
+            ebikGabık-=3;
+            for (int y = 1; y <= 5; y++) {
+                System.out.print(y + " ");
+            }
+            System.out.println();
 
-    private static void method03() {
-        System.out.println("   ***   method03 çalışıyor   ***   ");
-        for (int y = 1; y <= 5; y++) {
-            System.out.print(y + " ");
+            System.out.println("   ***   method03 bitti   ***   ");
         }
-        System.out.println();
-
-        System.out.println("   ***   method03 bitti   ***   ");
-    }
 
 
 }
